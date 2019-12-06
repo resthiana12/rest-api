@@ -11,13 +11,20 @@
 //mengubah objek jadi json
 //console.log(JSON.stringify(mahasiswa));
 
-//mengubah json jadi objek mah pake ajax
+//mengubah json jadi objek mah pake ajax yang vanilla java script(manual)
 //panggil objek ajax
-let xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function(){
-    if(xhr.readyState == 4 & xhr.status == 200){
-        let mahasiswa = this.responseText;
-        console.log(mahasiswa);
-    }
-}
-xhr.open('GET', 'coba.json', true);
+// let xhr = new XMLHttpRequest();
+// xhr.onreadystatechange = function(){
+//     if(xhr.readyState == 4 & xhr.status == 200){
+//         let mahasiswa = JSON.parse(this.responseText);
+//         console.log(mahasiswa);
+//     }
+// }
+// xhr.open('GET', 'coba.json', true);
+// xhr.send();
+
+//sekarang pake jquery
+//syaratnya panggil dulu jquerynya
+$.getJSON('coba.json', function(data){
+    console.log(data);
+});
