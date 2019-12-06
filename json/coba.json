@@ -1,0 +1,34 @@
+[
+    {
+        "nama" : "Resthiana",
+        "umur" : 20,
+        "nrp" : "173040057",
+        "lulus" : false,
+        "hobby" : [
+            "membaca", 
+            "menulis", 
+            "memasak"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Adam D Angelo",
+            "pembimbing2" : "Mark Zuckerberg"
+         }
+    },
+
+    {
+        "nama" : "Tawfee Aatef",
+        "umur" : 22,
+        "nrp" : "143020057",
+        "lulus" : true,
+        "hobby" : [
+            "membaca", 
+            "menulis", 
+            "berenang"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Muhti Menk",
+            "pembimbing2" : "Muhammad Dzakir Naik"
+        }
+    }
+    
+]
